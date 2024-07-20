@@ -1,0 +1,39 @@
+
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+
+}
+
+.logo {
+  width: 150px; /* Adjust the size as needed */
+  animation: ease-in 10s linear infinite, fade 10s ease-in-out infinite;
+  animation-delay: 0s, 5s;
+}
+
+@keyframes ease-in  {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+ 
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  
+}

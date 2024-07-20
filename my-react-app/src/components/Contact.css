@@ -1,0 +1,116 @@
+.contact-section {
+  background-color: #343a40;
+  color: orangered;
+  padding: 50px 20px;
+  text-align: center;
+  appearance: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+
+  margin: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  lighting-color: #ffc107;
+
+  color: #fff;
+
+  text-align: center;
+
+  appearance: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contact-section input,
+.contact-section textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+
+  border-radius: 0px;
+  width: 100%;
+  max-width: 550px;
+  font-size: 16px;
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+
+}
+
+.contact-section button {
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  appearance: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+  
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.contact-section button:hover {
+  background-color: orangered;
+
+}
+
+.form-status {
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+
+  appearance: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .contact-section {
+    padding: 20px;
+  }
+  
+}

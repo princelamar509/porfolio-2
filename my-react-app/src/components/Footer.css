@@ -1,0 +1,67 @@
+.fas.fas.fa-arrow-up{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f00;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fas.fas.fa-arrow-up:hover {
+  background-color: #333;
+}
+
+/* General Footer Styles */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 1em;
+}
+
+
+.scroll-to-top:hover {
+  background-color: #646769;
+}
+
+/* Dark Mode Styles */
+.hero.dark .footer {
+  background-color: #444;
+  color: #fff;
+}
+
+.hero.dark .scroll-to-top {
+  background-color: #555;
+  color: #fff;
+}
+
+.hero.dark .scroll-to-top:hover {
+  background-color: #444;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 10px;
+  }
+  
+}
+
+
+
